@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>787</width>
+    <height>570</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <widget class="QPushButton" name="name">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Имя</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="results">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>10</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Результаты</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="new_option">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>10</y>
+     <width>221</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Создать новый вариант</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="name_login">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>60</y>
+     <width>501</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="hide">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>120</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Скрыть</string>
+   </property>
+   <property name="flat">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="change_the_psw">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>120</y>
+     <width>191</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Изменить Пароль</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="new_psw">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>170</y>
+     <width>191</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="confirm">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>210</y>
+     <width>191</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Подтвердить</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="pswError">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>260</y>
+     <width>491</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>60</y>
+     <width>771</width>
+     <height>501</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>Имя</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Вариант</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>№ 1</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>№ 2</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>№ 3</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>№ 4</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>№ 5</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>№ 6</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>№ 7</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>№ 8</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>№ 9</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>№ 10</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>№ 11</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>№ 12</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>итого</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>количество правильного в %</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="exit_go">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>510</y>
+     <width>191</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe MDL2 Assets</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Выйти из аккаунта</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="open_option">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>10</y>
+     <width>241</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Shell Dlg 2</family>
+     <pointsize>12</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Открыть вариант</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="text_open_option">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>60</y>
+     <width>241</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MV Boli</family>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="ifError">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>130</y>
+     <width>241</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Yu Gothic UI</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <zorder>exit_go</zorder>
+  <zorder>name</zorder>
+  <zorder>results</zorder>
+  <zorder>new_option</zorder>
+  <zorder>name_login</zorder>
+  <zorder>hide</zorder>
+  <zorder>change_the_psw</zorder>
+  <zorder>new_psw</zorder>
+  <zorder>confirm</zorder>
+  <zorder>pswError</zorder>
+  <zorder>tableWidget</zorder>
+  <zorder>open_option</zorder>
+  <zorder>text_open_option</zorder>
+  <zorder>ifError</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
